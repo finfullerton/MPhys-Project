@@ -1,0 +1,7 @@
+import model sm
+generate p p > l+ vl l- vl~ l- vl~
+output mg_l+l-l-
+launch
+shower=Pythia8
+set use_syst True
+set nevents 2000

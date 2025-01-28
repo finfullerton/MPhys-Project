@@ -1,0 +1,14 @@
+import SMEFTsim_U35_MwScheme_UFO-CPV_massless
+generate p p > e+ mu+ ve vm j j QCD = 0 NP = 0
+output delphes_output_WWjj_e+mu_smeft_cWtil_NP0_m_jj=200_3
+launch
+shower=Pythia8
+set use_syst True
+set hard_survey 1
+set mmjjmax 200
+set nevents 1000
+set cGtil 0
+set cWtil 1
+set cHGtil 0
+set cHWtil 0
+set cHWBtil 0

@@ -1,0 +1,6 @@
+import model sm
+generate p p > l+ l+ vl vl j j QCD = 0
+output WWW_sm
+launch
+shower=Pythia8
+set use_syst True
